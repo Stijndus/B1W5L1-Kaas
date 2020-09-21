@@ -20,4 +20,21 @@ if(cheese === "ja"){
                 alert("Goudse kaas")
             }
     }
+}else if(cheese === "nee"){
+    cheese = prompt("Heeft de kaas blauwe schimmels?")
+    if(cheese === "ja"){
+        cheese = prompt("Heeft de kaas een korst?")
+        if (cheese === "ja"){
+            alert("Bleu de Rochbaron")
+        } else if(cheese === "nee"){
+            alert("Fourme d'Ambert")
+        }
+    } else if(cheese === "nee"){
+        cheese = prompt("Heeft de kaas een korst?")
+        if(cheese === "ja"){
+            alert("Camembert")
+        } else if(cheese === "nee"){
+            alert("Mozzarella")
+        }
+    }
 }
